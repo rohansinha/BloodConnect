@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C1C608C1B5584F700160BFF /* DonatedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C608B1B5584F700160BFF /* DonatedViewController.m */; };
 		1C1C608F1B55850500160BFF /* ReceivedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C608E1B55850500160BFF /* ReceivedViewController.m */; };
+		1C1C60941B55861A00160BFF /* SwiftMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C60931B55861A00160BFF /* SwiftMapViewController.swift */; };
 		1C246B9C1B4815D300291640 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C246B9B1B4815D300291640 /* MapViewController.m */; };
 		1C2A54B01B424EF5004CAE26 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A54AF1B424EF5004CAE26 /* PodFile */; };
 		1C2A54B21B424F04004CAE26 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A54B11B424F04004CAE26 /* Podfile.lock */; };
@@ -39,6 +40,7 @@
 		1C1C608B1B5584F700160BFF /* DonatedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DonatedViewController.m; sourceTree = "<group>"; };
 		1C1C608D1B55850500160BFF /* ReceivedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedViewController.h; sourceTree = "<group>"; };
 		1C1C608E1B55850500160BFF /* ReceivedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedViewController.m; sourceTree = "<group>"; };
+		1C1C60931B55861A00160BFF /* SwiftMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftMapViewController.swift; path = ../SwiftMapViewController.swift; sourceTree = "<group>"; };
 		1C246B9B1B4815D300291640 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		1C246B9D1B4815E100291640 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		1C2A54AF1B424EF5004CAE26 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = SOURCE_ROOT; };
@@ -115,6 +117,7 @@
 				1C89CA711B3EE30B00CBC45E /* FirstViewController.m */,
 				1C246B9D1B4815E100291640 /* MapViewController.h */,
 				1C246B9B1B4815D300291640 /* MapViewController.m */,
+				1C1C60931B55861A00160BFF /* SwiftMapViewController.swift */,
 				1C89CA731B3EE30B00CBC45E /* SecondViewController.h */,
 				1C89CA741B3EE30B00CBC45E /* SecondViewController.m */,
 				1C89CA761B3EE30B00CBC45E /* Main.storyboard */,
@@ -313,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C89CA751B3EE30B00CBC45E /* SecondViewController.m in Sources */,
+				1C1C60941B55861A00160BFF /* SwiftMapViewController.swift in Sources */,
 				1C89CA6F1B3EE30B00CBC45E /* AppDelegate.m in Sources */,
 				1C246B9C1B4815D300291640 /* MapViewController.m in Sources */,
 				1C89CA721B3EE30B00CBC45E /* FirstViewController.m in Sources */,
